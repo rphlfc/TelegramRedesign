@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D0A029B2742A71400D4CDED /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3D0A029A2742A71400D4CDED /* README.md */; };
 		3DE161D027418B3C007D73F3 /* TelegramRedesignApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE161CF27418B3C007D73F3 /* TelegramRedesignApp.swift */; };
 		3DE161D227418B3C007D73F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE161D127418B3C007D73F3 /* ContentView.swift */; };
 		3DE161D427418B42007D73F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DE161D327418B42007D73F3 /* Assets.xcassets */; };
 		3DE161D727418B42007D73F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DE161D627418B42007D73F3 /* Preview Assets.xcassets */; };
+		3DE161DF2741A387007D73F3 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE161DE2741A387007D73F3 /* MenuItem.swift */; };
+		3DE161E12741A3A4007D73F3 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE161E02741A3A4007D73F3 /* Message.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D0A029A2742A71400D4CDED /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3DE161CC27418B3C007D73F3 /* TelegramRedesign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TelegramRedesign.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DE161CF27418B3C007D73F3 /* TelegramRedesignApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelegramRedesignApp.swift; sourceTree = "<group>"; };
 		3DE161D127418B3C007D73F3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3DE161D327418B42007D73F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DE161D627418B42007D73F3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3DE161DE2741A387007D73F3 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		3DE161E02741A3A4007D73F3 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +41,7 @@
 		3DE161C327418B3C007D73F3 = {
 			isa = PBXGroup;
 			children = (
+				3D0A029A2742A71400D4CDED /* README.md */,
 				3DE161CE27418B3C007D73F3 /* TelegramRedesign */,
 				3DE161CD27418B3C007D73F3 /* Products */,
 			);
@@ -51,6 +58,7 @@
 		3DE161CE27418B3C007D73F3 /* TelegramRedesign */ = {
 			isa = PBXGroup;
 			children = (
+				3DE161DD2741A377007D73F3 /* Models */,
 				3DE161CF27418B3C007D73F3 /* TelegramRedesignApp.swift */,
 				3DE161D127418B3C007D73F3 /* ContentView.swift */,
 				3DE161D327418B42007D73F3 /* Assets.xcassets */,
@@ -65,6 +73,15 @@
 				3DE161D627418B42007D73F3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3DE161DD2741A377007D73F3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3DE161DE2741A387007D73F3 /* MenuItem.swift */,
+				3DE161E02741A3A4007D73F3 /* Message.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +142,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D0A029B2742A71400D4CDED /* README.md in Resources */,
 				3DE161D727418B42007D73F3 /* Preview Assets.xcassets in Resources */,
 				3DE161D427418B42007D73F3 /* Assets.xcassets in Resources */,
 			);
@@ -137,6 +155,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DE161DF2741A387007D73F3 /* MenuItem.swift in Sources */,
+				3DE161E12741A3A4007D73F3 /* Message.swift in Sources */,
 				3DE161D227418B3C007D73F3 /* ContentView.swift in Sources */,
 				3DE161D027418B3C007D73F3 /* TelegramRedesignApp.swift in Sources */,
 			);
